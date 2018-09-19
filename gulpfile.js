@@ -399,7 +399,6 @@ gulp.task('default', gulp.series('copy:dependency', 'scss', 'js', gulp.parallel(
 /*-----------------------------------------------
 |   Deploying to Github Pages
 -----------------------------------------------*/
-var gulp        = require('gulp');
 var deploy      = require('gulp-gh-pages');
 
 /**
